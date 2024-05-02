@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.main-cont {
+  background-color: #150b3e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 150px;
+  border-radius: 10px;
+  background-size: cover;
+  width: 500px;
+}
+
+.user-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.circle-container {
+  width: 60px; /* Adjust the width and height to define the size of the circle */
+  height: 60px;
+  border-radius: 50%; /* Make the container circular */
+  background-color: hsl(272, 100%, 62%); /* Set the background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Set the text color */
+  font-size: 24px; /* Adjust the font size of the letter */
+  font-weight: bold;
+}
+
+.user-name {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.money-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance {
+  color: #585076;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.show-balance {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Withdraw-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

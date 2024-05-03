@@ -7,7 +7,6 @@ class CashWithdrawal extends Component {
   state = {amount: 2000}
 
   withdrawAmt = value => {
-    const {amount} = this.state
     this.setState(prevState => ({amount: prevState.amount - value}))
   }
 
